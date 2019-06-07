@@ -1,4 +1,5 @@
-﻿using UnityEditor;
+﻿#if UNITY_IOS
+using UnityEditor;
 using UnityEditor.Callbacks;
 
 namespace Agens.Stickers
@@ -17,3 +18,4 @@ namespace Agens.Stickers
         }
     }
 }
+#endif

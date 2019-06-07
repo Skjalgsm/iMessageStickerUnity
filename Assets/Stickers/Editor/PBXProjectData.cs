@@ -1,3 +1,4 @@
+#if UNITY_IOS
 using System.Collections.Generic;
 using System.Text;
 using System.Text.RegularExpressions;
@@ -683,3 +684,4 @@ namespace UnityEditor.iOS.Xcode
 
 } // namespace UnityEditor.iOS.Xcode
 
+#endif

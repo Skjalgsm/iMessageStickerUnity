@@ -1,3 +1,4 @@
+#if UNITY_IOS
 using System.Collections.Generic;
 using System.Collections;
 using System.Text.RegularExpressions;
@@ -891,3 +892,5 @@ namespace UnityEditor.iOS.Xcode.PBX
     }
 
 } // namespace UnityEditor.iOS.Xcode
+
+#endif

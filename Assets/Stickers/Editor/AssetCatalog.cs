@@ -1,3 +1,4 @@
+#if UNITY_IOS
 using System;
 using System.Collections.Generic;
 using System.IO;
@@ -706,3 +707,4 @@ namespace UnityEditor.iOS.Xcode.Stickers
     }
 
 } // namespace UnityEditor.iOS.Xcode
+#endif

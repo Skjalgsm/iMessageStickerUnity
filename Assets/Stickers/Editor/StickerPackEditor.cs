@@ -174,7 +174,7 @@ namespace Agens.Stickers
 
             GUI.Box(Rect.MinMaxRect(rect.xMin + 1f, rect.yMin, rect.xMax - 3f, rect.yMax), string.Empty);
 
-            if (Event.current.type != EventType.Repaint)
+            if (Event.current.type != UnityEngine.EventType.Repaint)
                 return;
 
             if (elementStyle == null)
