@@ -1,4 +1,5 @@
-﻿using System.IO;
+﻿#if UNITY_IOS
+using System.IO;
 using Agens;
 using UnityEngine;
 using UnityEditor;
@@ -48,3 +49,4 @@ namespace Agens.Stickers
         }
     }
 }
+#endif

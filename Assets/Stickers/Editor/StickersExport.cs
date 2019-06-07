@@ -1,4 +1,5 @@
-﻿using System;
+﻿#if UNITY_IOS
+using System;
 using UnityEngine;
 using System.IO;
 using System.Linq;
@@ -373,3 +374,4 @@ namespace Agens.Stickers
         }
     }
 }
+#endif

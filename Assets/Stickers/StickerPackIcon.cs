@@ -552,7 +552,7 @@ namespace Agens.Stickers
                 return null;
             }
 
-            var scaled = TextureScale.ScaledResized(appStore, width, height, Settings.BackgroundColor, Settings.FillPercentage / 100f, Settings.FilterMode, Settings.ScaleMode);
+            var scaled = TextureScale.ScaledResized(width == height ? appStore : messagesAppStore, width, height, Settings.BackgroundColor, Settings.FillPercentage / 100f, Settings.FilterMode, Settings.ScaleMode);
             if (scaled != null)
             {
                 scaled.name = width + "x" + height;

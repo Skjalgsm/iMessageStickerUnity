@@ -15,7 +15,7 @@ namespace Agens.Stickers
             }
 
             var rtt = CreateScaledTexture(src,width,height,backgroundColor,fillPercentage,mode, anchor);
-
+            RenderTexture.active = rtt;
             var texR = new Rect(0,0,width,height);
             result.ReadPixels(texR,0,0,true);
             result.Apply(false);

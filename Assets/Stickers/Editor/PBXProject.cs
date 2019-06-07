@@ -1,3 +1,4 @@
+#if UNITY_IOS
 using System.Collections.Generic;
 using System.Text;
 using System.Text.RegularExpressions;
@@ -1361,3 +1362,4 @@ namespace UnityEditor.iOS.Xcode.Stickers
     }
 
 } // namespace UnityEditor.iOS.Xcode
+#endif

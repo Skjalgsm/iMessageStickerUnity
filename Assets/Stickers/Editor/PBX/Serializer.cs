@@ -1,3 +1,4 @@
+#if UNITY_IOS
 using System;
 using System.Collections.Generic;
 using System.Text;
@@ -256,3 +257,4 @@ namespace UnityEditor.iOS.Xcode.PBX
     }
     
 } // namespace UnityEditor.iOS.Xcode
+#endif
